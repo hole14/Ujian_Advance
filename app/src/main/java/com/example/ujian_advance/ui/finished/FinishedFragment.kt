@@ -38,12 +38,6 @@ class FinishedFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        adapter = FinishedAdapter{ event ->
-            if (event.isFavorite){
-                viewModel.
-            } else {
-                viewModel.saveNews(news)
-            }
-        }
+        adapter = FinishedAdapter
     }
 }
